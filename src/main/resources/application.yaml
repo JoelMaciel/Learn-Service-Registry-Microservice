@@ -14,3 +14,5 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    service-url:
+      defaultZone: 'http://${learn.serviceRegistry.username}:${learn.serviceRegistry.password}@localhost:8761/eureka'
