@@ -5,6 +5,11 @@ spring:
   application:
     name: learn-service-registry
 
+learn:
+  serviceRegistry:
+    username: ${NAME}
+    password: ${PASSWORD}
+
 eureka:
   client:
     registerWithEureka: false
